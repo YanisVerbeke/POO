@@ -1,7 +1,7 @@
 setInterval(function (){
 	var formData = "nom=";
 	$.ajax({
-			url: "updateMine.php",
+			url: "update.php",
 			type: 'POST',
 			data: {formData: 'produire'},
 				success: function(data){
